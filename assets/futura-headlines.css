@@ -1,14 +1,14 @@
-/* Integrazione font Futura Medium per tutti i titoli */
+/* Integrazione font Futura Regular per tutti i titoli */
 
 /* Override della variabile CSS principale per i titoli */
 :root {
-  --font-headline: 'Futura', 'Futura Medium', Arial, sans-serif !important;
+  --font-headline: 'Futura', Arial, sans-serif !important;
 }
 
 /* Applicazione diretta a tutti i tag di titolo */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Futura', 'Futura Medium', Arial, sans-serif !important;
-  font-weight: 500 !important;
+  font-family: 'Futura', Arial, sans-serif !important;
+  font-weight: 400 !important;
 }
 
 /* Classi comuni per i titoli nel tema */
@@ -17,8 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 .page-title, .section-title,
 .product-title, .collection-title,
 .article-title, .blog-title {
-  font-family: 'Futura', 'Futura Medium', Arial, sans-serif !important;
-  font-weight: 500 !important;
+  font-family: 'Futura', Arial, sans-serif !important;
+  font-weight: 400 !important;
 }
 
 /* Elementi specifici che utilizzano la variabile --font-headline */
@@ -28,8 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 .collection-hero__title,
 .product__title,
 .card__heading {
-  font-family: 'Futura', 'Futura Medium', Arial, sans-serif !important;
-  font-weight: 500 !important;
+  font-family: 'Futura', Arial, sans-serif !important;
+  font-weight: 400 !important;
 }
 
 /* Override specific Shopify theme classes that use headlines */
