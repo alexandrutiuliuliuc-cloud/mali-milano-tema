@@ -1,0 +1,64 @@
+/* Integrazione font Futura Medium per tutti i titoli */
+
+/* Override della variabile CSS principale per i titoli */
+:root {
+  --font-headline: 'Futura', 'Futura Medium', Arial, sans-serif !important;
+}
+
+/* Applicazione diretta a tutti i tag di titolo */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Futura', 'Futura Medium', Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Classi comuni per i titoli nel tema */
+.h1, .h2, .h3, .h4, .h5, .h6,
+.heading, .title, .headline,
+.page-title, .section-title,
+.product-title, .collection-title,
+.article-title, .blog-title {
+  font-family: 'Futura', 'Futura Medium', Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Elementi specifici che utilizzano la variabile --font-headline */
+[style*="--font-headline"],
+.wt-heading,
+.main-page-title,
+.collection-hero__title,
+.product__title,
+.card__heading {
+  font-family: 'Futura', 'Futura Medium', Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Override specific Shopify theme classes that use headlines */
+.wt-product__brand h2,
+.hero--video-background h2,
+.wt-select__drawer__header h3,
+.wt-filter__header h3,
+.wt-cart__drawer__header h3,
+.summary__title--h3,
+.main-blog__grid__item--left h3,
+.article__body h1,
+.article__body h2,
+.article__body h3,
+.form__message h3,
+.cms-page__content h1,
+.cms-page__content h2,
+.cms-page__content h3,
+.main-article__body h2,
+.wt-benefits-product__subheading h2,
+.multicolumn-list h3 {
+  font-family: 'Futura Medium', 'Futura', 'Trebuchet MS', 'Arial', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Override any elements using font-headline variable */
+[style*="font-family: var(--font-headline)"],
+*[class*="headline"],
+*[class*="title"],
+*[class*="heading"] {
+  font-family: 'Futura Medium', 'Futura', 'Trebuchet MS', 'Arial', sans-serif !important;
+  font-weight: 500 !important;
+}
